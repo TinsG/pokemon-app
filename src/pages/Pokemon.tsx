@@ -16,7 +16,7 @@ const Pokemon: React.FC<{}> = () => {
   const [isOpen, setisOpen] = useState(false);
   const [nickName, setnickName] = useState('');
 
-  const goBack = () => navigate(-1);
+  const goBack = () => navigate('/');
 
   function handleAddProduct() {
     addPokemon(pokemon, nickName);
